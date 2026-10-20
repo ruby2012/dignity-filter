@@ -1,0 +1,12 @@
+{
+  "name": "dignity-filter",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Dependency-free TypeScript filter that keeps assistant text plain and respectful for adults with disabilities.",
+  "license": "MIT",
+  "keywords": ["accessibility", "disability", "plain-language", "readability", "llm", "ai-safety", "dignity"],
+  "exports": { ".": "./src/index.ts" },
+  "files": ["src/index.ts", "README.md", "LICENSE"],
+  "engines": { "node": ">=22.6" },
+  "scripts": { "test": "node --test src/index.test.ts" }
+}
